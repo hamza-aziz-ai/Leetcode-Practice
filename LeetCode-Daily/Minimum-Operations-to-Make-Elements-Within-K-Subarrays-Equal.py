@@ -66,6 +66,82 @@ class Solution:
         return dp[k][n]
 
 
+class SolutionTwoRows:
+    """Same idea, but the dp table keeps only two rows: O(n) extra memory.
+
+    Row j only ever reads row j - 1 (for take) and itself (for skip),
+    so rows j - 2, j - 3, ... can be thrown away.
+    """
+
+    def minOperations(self, nums: List[int], x: int, k: int) -> int:
+        n = len(nums)
+        cost = window_costs(nums, x)
+        INF = float("inf")
+        prev = [0] * (n + 1)              # row j - 1; starts as row 0 (all zeros)
+        for j in range(1, k + 1):
+            cur = [INF] * (n + 1)         # row j
+            for i in range(j * x, n + 1):
+                skip = cur[i - 1]
+                take = prev[i - x] + cost[i - x]
+                cur[i] = min(skip, take)
+            prev = cur                    # row j becomes "the row above" for j + 1
+        return prev[n]
+
+
+def window_costs(nums, x):
+    """cost[s] for every window, using two Fenwick trees instead of SortedList.
+
+    Values are swapped for their rank (0, 1, 2, ...). One tree counts how many
+    window cards have each rank, the other adds up their values. The middle
+    card is the (x // 2 + 1)-th smallest, found by walking down the tree.
+    """
+    vals = sorted(set(nums))
+    rank = {v: i + 1 for i, v in enumerate(vals)}
+    m = len(vals)
+    cnt = [0] * (m + 1)
+    sm = [0] * (m + 1)
+
+    def update(i, c, v):
+        while i <= m:
+            cnt[i] += c
+            sm[i] += v
+            i += i & -i
+
+    def prefix(i):                        # count and sum of ranks 1..i
+        c = t = 0
+        while i > 0:
+            c += cnt[i]
+            t += sm[i]
+            i -= i & -i
+        return c, t
+
+    def kth(need):                        # smallest rank whose prefix count >= need
+        pos, step = 0, 1 << m.bit_length()
+        while step:
+            nxt = pos + step
+            if nxt <= m and cnt[nxt] < need:
+                pos = nxt
+                need -= cnt[nxt]
+            step >>= 1
+        return pos + 1
+
+    cost = []
+    total = 0
+    for r, v in enumerate(nums):
+        update(rank[v], 1, v)
+        total += v
+        if r >= x:
+            old = nums[r - x]
+            update(rank[old], -1, -old)
+            total -= old
+        if r >= x - 1:
+            med_rank = kth(x // 2 + 1)
+            med = vals[med_rank - 1]
+            c_le, s_le = prefix(med_rank)     # cards <= med
+            cost.append((med * c_le - s_le) + (total - s_le - med * (x - c_le)))
+    return cost
+
+
 def min_ops_slow(nums, x, k):
     """Brute force: try every set of k groups that do not overlap."""
     def fix(group):
@@ -92,5 +168,7 @@ if __name__ == "__main__":
         x = random.randint(2, n)
         k = random.randint(1, n // x)
         nums = [random.randint(-6, 6) for _ in range(n)]
-        assert sol.minOperations(nums, x, k) == min_ops_slow(nums, x, k), (nums, x, k)
+        want = min_ops_slow(nums, x, k)
+        assert sol.minOperations(nums, x, k) == want, (nums, x, k)
+        assert SolutionTwoRows().minOperations(nums, x, k) == want, (nums, x, k)
     print("all tests pass")
