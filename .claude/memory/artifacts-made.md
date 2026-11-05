@@ -13,5 +13,6 @@ metadata:
 - [Minimum Moves to Equal Array Elements III](https://claude.ai/artifact/65mXSSppgrq3BkpptsAt1G), LeetCode 3736, version 1
 - [Minimum Operations to Make Elements Within K Subarrays Equal](https://claude.ai/artifact/QezZBU5zpQWVd4R44LLAmU), LeetCode 3505, version 3 (concept animations, journeys, debuggers)
 - [Find the Distance Value Between Two Arrays](https://claude.ai/artifact/QCQtzrRackDZf3Mvk91h7b), LeetCode 1385, version 1
+- [Kth Largest Element in a Stream](https://claude.ai/artifact/57Q1Pw9hhaBkNGRH3ZERZj), LeetCode 703, version 1
 
 These links are private to the artifact owner until shared. To change one, read it first and republish to the same URL.
