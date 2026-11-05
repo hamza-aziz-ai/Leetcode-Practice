@@ -23,5 +23,6 @@ metadata:
 - [Majority Element](https://claude.ai/artifact/QjsyE4PXZEEt15uHhhJeHc), LeetCode 169, version 1
 - [Rotate Array](https://claude.ai/artifact/DkjCfuaCihggcSRpZ7sHC6), LeetCode 189, version 1
 - [Best Time to Buy and Sell Stock](https://claude.ai/artifact/EhKDVvvXABkcVJAuNTkTVu), LeetCode 121, version 1
+- [Best Time to Buy and Sell Stock II](https://claude.ai/artifact/52DJ5y7BBzSR4Bn2qAgFw5), LeetCode 122, version 1
 
 These links are private to the artifact owner until shared. To change one, read it first and republish to the same URL.
