@@ -17,5 +17,6 @@ metadata:
 - [Stream of Characters](https://claude.ai/artifact/JogLpdxymHqanPCuTrnfNm), LeetCode 1032, version 2 (Aho–Corasick stop, animations linked to code)
 - [Data Stream as Disjoint Intervals](https://claude.ai/artifact/587nqv7tWAFZ9QcfbPqwSH), LeetCode 352, version 1
 - [Merge Sorted Array](https://claude.ai/artifact/5f3GtwFL2eXZ8FoZpYGd6M), LeetCode 88, version 1
+- [Remove Element](https://claude.ai/artifact/M1giNrT4XrM3As82tbpSDC), LeetCode 27, version 1
 
 These links are private to the artifact owner until shared. To change one, read it first and republish to the same URL.
