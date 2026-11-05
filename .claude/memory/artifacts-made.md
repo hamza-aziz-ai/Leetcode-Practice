@@ -15,5 +15,6 @@ metadata:
 - [Find the Distance Value Between Two Arrays](https://claude.ai/artifact/QCQtzrRackDZf3Mvk91h7b), LeetCode 1385, version 1
 - [Kth Largest Element in a Stream](https://claude.ai/artifact/57Q1Pw9hhaBkNGRH3ZERZj), LeetCode 703, version 1
 - [Stream of Characters](https://claude.ai/artifact/JogLpdxymHqanPCuTrnfNm), LeetCode 1032, version 2 (Aho–Corasick stop, animations linked to code)
+- [Data Stream as Disjoint Intervals](https://claude.ai/artifact/587nqv7tWAFZ9QcfbPqwSH), LeetCode 352, version 1
 
 These links are private to the artifact owner until shared. To change one, read it first and republish to the same URL.
