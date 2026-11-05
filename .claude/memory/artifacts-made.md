@@ -20,5 +20,6 @@ metadata:
 - [Remove Element](https://claude.ai/artifact/M1giNrT4XrM3As82tbpSDC), LeetCode 27, version 1
 - [Remove Duplicates from Sorted Array](https://claude.ai/artifact/GMMcvvmriXarE21e64msvB), LeetCode 26, version 1
 - [Remove Duplicates from Sorted Array II](https://claude.ai/artifact/Go2g8cq2H8YArc6TegCk1V), LeetCode 80, version 1
+- [Majority Element](https://claude.ai/artifact/QjsyE4PXZEEt15uHhhJeHc), LeetCode 169, version 1
 
 These links are private to the artifact owner until shared. To change one, read it first and republish to the same URL.
