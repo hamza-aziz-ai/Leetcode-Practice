@@ -19,5 +19,6 @@ metadata:
 - [Merge Sorted Array](https://claude.ai/artifact/5f3GtwFL2eXZ8FoZpYGd6M), LeetCode 88, version 1
 - [Remove Element](https://claude.ai/artifact/M1giNrT4XrM3As82tbpSDC), LeetCode 27, version 1
 - [Remove Duplicates from Sorted Array](https://claude.ai/artifact/GMMcvvmriXarE21e64msvB), LeetCode 26, version 1
+- [Remove Duplicates from Sorted Array II](https://claude.ai/artifact/Go2g8cq2H8YArc6TegCk1V), LeetCode 80, version 1
 
 These links are private to the artifact owner until shared. To change one, read it first and republish to the same URL.
