@@ -26,5 +26,6 @@ metadata:
 - [Best Time to Buy and Sell Stock II](https://claude.ai/artifact/52DJ5y7BBzSR4Bn2qAgFw5), LeetCode 122, version 1
 - [Jump Game](https://claude.ai/artifact/3gAAA9xizuKVvts6jEUVQg), LeetCode 55, version 1
 - [Jump Game II](https://claude.ai/artifact/K8ARmWiKaQQ9fsNRqZr2yd), LeetCode 45, version 1
+- [Count Zero Request Servers](https://claude.ai/artifact/4rtbHVokMbvyEDCuKUe18x), LeetCode 2747, version 1
 
 These links are private to the artifact owner until shared. To change one, read it first and republish to the same URL.
