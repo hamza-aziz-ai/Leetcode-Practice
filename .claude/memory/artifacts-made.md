@@ -27,5 +27,6 @@ metadata:
 - [Jump Game](https://claude.ai/artifact/3gAAA9xizuKVvts6jEUVQg), LeetCode 55, version 1
 - [Jump Game II](https://claude.ai/artifact/K8ARmWiKaQQ9fsNRqZr2yd), LeetCode 45, version 1
 - [Count Zero Request Servers](https://claude.ai/artifact/4rtbHVokMbvyEDCuKUe18x), LeetCode 2747, version 1
+- [Process Tasks Using Servers](https://claude.ai/artifact/LMRRV5DDnMr7arJoZm3LCD), LeetCode 1882, version 1
 
 These links are private to the artifact owner until shared. To change one, read it first and republish to the same URL.
