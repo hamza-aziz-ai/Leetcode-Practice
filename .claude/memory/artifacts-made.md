@@ -30,3 +30,4 @@ metadata:
 - [Process Tasks Using Servers](https://claude.ai/artifact/LMRRV5DDnMr7arJoZm3LCD), LeetCode 1882, version 1
 
 These links are private to the artifact owner until shared. To change one, read it first and republish to the same URL.
+- [Count Servers that Communicate](https://claude.ai/artifact/NTZzv2EfAivgCeUMTxiBMG), LeetCode 1267, version 1
