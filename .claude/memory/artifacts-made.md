@@ -32,3 +32,4 @@ metadata:
 These links are private to the artifact owner until shared. To change one, read it first and republish to the same URL.
 - [Count Servers that Communicate](https://claude.ai/artifact/NTZzv2EfAivgCeUMTxiBMG), LeetCode 1267, version 1
 - [Find Servers That Handled Most Number of Requests](https://claude.ai/artifact/2S7jmb2zWyLzvi1k4pqn9x), LeetCode 1606, version 1
+- [Climbing Stairs II](https://claude.ai/artifact/UBKGBtGYHLvK4gv8ELnece), LeetCode 3693, version 1
