@@ -37,3 +37,4 @@ These links are private to the artifact owner until shared. To change one, read 
 - [Maximum Coins From K Consecutive Bags](https://claude.ai/artifact/EKMi1zLQvpssiybmYbGCFN), LeetCode 3413, version 1
 - [3Sum](https://claude.ai/artifact/Prg7wzs8Uda2iwmB9mYrpU), LeetCode 15, version 1
 - [Maximize Consecutive Elements](https://claude.ai/artifact/DtghUNTTphLrRhaaijM6yj), LeetCode 3041, version 1
+- [Find Subtree Sizes After Changes](https://claude.ai/artifact/JPmjmjpfdNaKFkZxnDCfvj), LeetCode 3331, version 1
