@@ -38,3 +38,4 @@ These links are private to the artifact owner until shared. To change one, read 
 - [3Sum](https://claude.ai/artifact/Prg7wzs8Uda2iwmB9mYrpU), LeetCode 15, version 1
 - [Maximize Consecutive Elements](https://claude.ai/artifact/DtghUNTTphLrRhaaijM6yj), LeetCode 3041, version 1
 - [Find Subtree Sizes After Changes](https://claude.ai/artifact/JPmjmjpfdNaKFkZxnDCfvj), LeetCode 3331, version 1
+- [Correct a Binary Tree](https://claude.ai/artifact/6eXbF6uLaHbCLgg1T2y9ox), LeetCode 1660, version 1
