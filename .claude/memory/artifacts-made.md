@@ -40,3 +40,4 @@ These links are private to the artifact owner until shared. To change one, read 
 - [Find Subtree Sizes After Changes](https://claude.ai/artifact/JPmjmjpfdNaKFkZxnDCfvj), LeetCode 3331, version 1
 - [Correct a Binary Tree](https://claude.ai/artifact/6eXbF6uLaHbCLgg1T2y9ox), LeetCode 1660, version 1
 - [Count the Employees](https://claude.ai/artifact/MUWWa2fGvBDaiFv6cuNW1c), HackerRank SQL, version 1
+- [FizzBuzz](https://claude.ai/artifact/Kfm6Cm2PM4Exu1P7bi2nv8), HackerRank, version 1
