@@ -39,3 +39,4 @@ These links are private to the artifact owner until shared. To change one, read 
 - [Maximize Consecutive Elements](https://claude.ai/artifact/DtghUNTTphLrRhaaijM6yj), LeetCode 3041, version 1
 - [Find Subtree Sizes After Changes](https://claude.ai/artifact/JPmjmjpfdNaKFkZxnDCfvj), LeetCode 3331, version 1
 - [Correct a Binary Tree](https://claude.ai/artifact/6eXbF6uLaHbCLgg1T2y9ox), LeetCode 1660, version 1
+- [Count the Employees](https://claude.ai/artifact/MUWWa2fGvBDaiFv6cuNW1c), HackerRank SQL, version 1
