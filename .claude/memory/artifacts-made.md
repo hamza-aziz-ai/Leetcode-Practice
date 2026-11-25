@@ -43,3 +43,4 @@ These links are private to the artifact owner until shared. To change one, read 
 - [FizzBuzz](https://claude.ai/artifact/Kfm6Cm2PM4Exu1P7bi2nv8), HackerRank, version 1
 - [Better Compression](https://claude.ai/artifact/QV6YtHSaUHnBjn9JkvNM89), HackerRank, version 1
 - [Maximum Subarray With Equal Products](https://claude.ai/artifact/MxMaJySHtMUvREAVCvKUYC), LeetCode 3411, version 1
+- [Smallest Unique Subarray](https://claude.ai/artifact/1eNsAtCJVRSZaxfQmpX47h), LeetCode 3934, version 1
